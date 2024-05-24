@@ -8,14 +8,14 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Иван
+    name: X
     tagline: DevOps инженер
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: 123@icloud.com
+    email: '***@***.***'
     phone: +7 (123) 123-45-67
-    timezone: Russia/Moscow Timezone
+    timezone: Russia/Moscow GMT+3
     citizenship:
     website: #it.bdvme.pro #do not add http://
     linkedin:
@@ -83,7 +83,7 @@ experiences:
     info:
       - role: Ведущий инженер-программист отдела схемотехники
         time: 2015 - настоящее время
-        company: АО "Компания 1", Москва
+        company: АО "****", Москва
         details: |
           Программирование на языках:
             - C/C++
@@ -102,7 +102,7 @@ experiences:
           Разработка ПО для целей импортозамещения
       - role: Ведущий инженер-программист инженерно-технического центра
         time: 2012 - 2015
-        company: ОАО «Компания 2», Москва
+        company: ОАО «***», Москва
         details: |
           Программирование на языках:
             - C/C++
@@ -110,7 +110,7 @@ experiences:
           Разработка базовой системы вода-вывода для промышленного ПК
       - role: Ведущий инженер-программист отдела разработки <br> высокопроизводительных ЭВМ
         time: 2006 - 2012
-        company: ОАО «Компания 2», Москва
+        company: ОАО «***», Москва
         details: |
           Программирование на языках:
           - C/C++
@@ -118,14 +118,14 @@ experiences:
           Разработка базовой системы вода-вывода для одноплатного компьютера типа "Тонкий клиент" на базе Intel Atom
       - role: Инженер-электроник отдела разработки <br> высокопроизводительных ЭВМ
         time: 2004 - 2006
-        company: ОАО «Компания 2», Москва
+        company: ОАО «***», Москва
         details: |
           Программирование на языках:
             - VHDL
             - AHDL
             - C/C++
             - Visual C++
-            
+
           Разработка автоматизированного рабочего места для автоматической регулировки скорости движения поездов Московского метрополитена 
 
 certifications:
