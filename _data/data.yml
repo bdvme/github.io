@@ -4,11 +4,11 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Дмитрий
+    name: Иван
     tagline: DevOps инженер
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -17,11 +17,11 @@ sidebar:
     phone: +7 (123) 123-45-67
     timezone: Russia/Moscow Timezone
     citizenship:
-    website: it.bdvme.pro #do not add http://
+    website: #it.bdvme.pro #do not add http://
     linkedin:
     xing: 
     github: 
-    telegram: username1982 # add your nickname without '@' sign
+    telegram: username # add your nickname without '@' sign
     gitlab:
     bitbucket:
     twitter: 
@@ -54,16 +54,15 @@ sidebar:
 career-profile:
     title: Карьера
     summary: |
-      Ведущий инженер-программист с опытом (15+ лет), техническими компетенциями и опытом управления 
-      проектами в следующих областях: участие в проектах для нужд гособоронзаказа, разработка и сопровождение 
+      Ведущий инженер-программист с опытом (20+ лет), техническими компетенциями и опытом управления 
+      проектами в следующих областях: участие в проектах для нужд госпредприятий, разработка и сопровождение 
       встроенного ПО, адаптация исходных кодов ПО под требования заказчика, работа с вычислительными платформами (ВП) 
-      на процессоре Эльбрус, x86, ARM; разработка shell-скриптов, написание драйверов под Astra Linux SE 
-      (релиз «Ленинград», релиз «Орел», релиз «Смоленск»); Работа с OpenSource ПО BIOS; адаптация ПО начального старта ВП на процессоре Эльбрус-8С, 8СВ, 2С3.
-      Прошел профессиональную переподготовку в Нетологии по курсу DevOps-инженер, успешно защитил диплом и применяю полученые знания на практике
+      на процессорах x86, ARM, процессорах отечественной разработки; разработка shell-скриптов, написание драйверов под ОС Linux;
+      Работа с OpenSource ПО; Прошел профессиональную переподготовку в ООО "Нетология" по курсу DevOps-инженер, успешно защитил диплом и применяю полученые знания на практике.
 education:
     title: Образование
     info:
-      - degree: DevOps инженер
+      - degree: DevOps-инженер
         university: Нетология
         time: 2021 - 2023
         details: |
@@ -75,45 +74,33 @@ education:
         details: |
 
 experiences:
-    title: Experiences
+    title: Карьера
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Ведущий инженер-программист отдела схемотехники
+        time: 2015 - настоящее время
+        company: АО "ТС-СКН", Москва
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Программирование на языках C/C++, Python
+          Технический стек: DevOps/GitOps-методология, GitFlow, Ansible, Docker, Terraform, Git, Gitlab, CI/CD 
+          Разработка ПО для целей импортозамещения
+      - role: Ведущий инженер-программист инженерно-технического центра
+        time: 2012 - 2015
+        company: ОАО «НИЦЭВТ», Москва
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Программирование на языках C/C++
+          Разработка базовой системы вода-вывода (BIOS) для промышленного ПК "TS Strong@Master"
+      - role: Ведущий инженер-программист отдела разработки высокопроизводительных ЭВМ
+        time: 2006 - 2012
+        company: ОАО «НИЦЭВТ», Москва
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Программирование на языках C/C++
+          Разработка базовой системы вода-вывода для одноплатного компьютера типа "Тонкий клиент" на базе Intel Atom
+      - role: Инженер-электронщик отдела разработки высокопроизводительных ЭВМ
+        time: 2004 - 2006
+        company: ОАО «НИЦЭВТ», Москва
+        details: |
+          Программирование на языках VHDL, AHDL, C/C++, Visual C++
+          Разработка автоматизированного рабочего места для автоматической регулировки скорости движения поездов Московского метрополитена 
 
 certifications:
       title: Сертификаты
@@ -123,7 +110,7 @@ certifications:
           end: 2023
           organization: Нетология
           credentialid: DEVSYS-21-7472820
-          credentialurl: https://netology.ru/sharing/1be8d2ae9663738ce4d7437e421daf2a?utm_source=social&utm_campaign=achievements
+          credentialurl: netology.ru/sharing/1be8d2ae9663738ce4d7437e421daf2a?utm_source=social&utm_campaign=achievements
           credentialname: Нетология
           details: 
         - name: Виртуализация, базы данных и Terraform
@@ -131,7 +118,7 @@ certifications:
           end: 2023
           organization: Нетология
           credentialid: VIRT-21-7472820
-          credentialurl: https://netology.ru/sharing/fa1f7bb9f12a724613314e80938a82b7?utm_source=social&utm_campaign=achievements
+          credentialurl: netology.ru/sharing/fa1f7bb9f12a724613314e80938a82b7?utm_source=social&utm_campaign=achievements
           credentialname: Нетология
           details:
         - name: CI, мониторинг и управление конфигурациями
@@ -139,7 +126,7 @@ certifications:
           end: 2023
           organization: Нетология
           credentialid: MNT-21-7472820
-          credentialurl: https://netology.ru/sharing/1bde4ccbf57baa42ac3dc57196b6a2c4?utm_source=social&utm_campaign=achievements
+          credentialurl: netology.ru/sharing/1bde4ccbf57baa42ac3dc57196b6a2c4?utm_source=social&utm_campaign=achievements
           credentialname: Нетология
           details:
         - name: Администрирование и конфигурация Kubernetes
@@ -147,7 +134,7 @@ certifications:
           end: 2023
           organization: Нетология
           credentialid: DEVKUB-21-7472820
-          credentialurl: https://netology.ru/sharing/97118f16213655aa0b4f7cf6ad847421?utm_source=social&utm_campaign=achievements
+          credentialurl: netology.ru/sharing/97118f16213655aa0b4f7cf6ad847421?utm_source=social&utm_campaign=achievements
           credentialname: Нетология
           details:
         - name: Kubernetes и облачные сервисы
@@ -155,7 +142,7 @@ certifications:
           end: 2023
           organization: Нетология
           credentialid: CLOKUB-21-7472820
-          credentialurl: https://netology.ru/sharing/a2a088df4c89b86196303361f3d84e71?utm_source=social&utm_campaign=achievements
+          credentialurl: netology.ru/sharing/a2a088df4c89b86196303361f3d84e71?utm_source=social&utm_campaign=achievements
           credentialname: Нетология
           details:
         - name: Дипломный практикум по курсу DevOps-инженер
@@ -163,7 +150,7 @@ certifications:
           end: 2023
           organization: Нетология
           credentialid: DEVOPS-21-7472820
-          credentialurl: https://netology.ru/sharing/f7f996cff9d6be55e7f1f5e83db5fa0f?utm_source=social&utm_campaign=achievements
+          credentialurl: netology.ru/sharing/f7f996cff9d6be55e7f1f5e83db5fa0f?utm_source=social&utm_campaign=achievements
           credentialname: Нетология
           details: 
 
@@ -175,7 +162,7 @@ skills:
     title: Профессиональные навыки
 
     toolset:
-      - name: Python, C/C++, BASH
+      - name: Python, C/C++, BASH, Golang
         level: 80%
 
       - name: Ansible, Terraform, Git/Gitlab/GitHub, Jenkins, Docker, CI/CD pipeline, Vagrant
@@ -192,6 +179,7 @@ skills:
       
       - name: Redmine
         level: 60%
+  
 
 
 footer: >
