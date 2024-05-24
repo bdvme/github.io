@@ -54,8 +54,8 @@ sidebar:
 career-profile:
     title: Профиль
     summary: |
-      Ведущий инженер-программист с опытом (20+ лет), техническими компетенциями и опытом управления 
-      проектами в следующих областях: участие в проектах для нужд госпредприятий, разработка и сопровождение 
+      Ведущий инженер-программист с опытом (20+ лет), техническими компетенциями и опытом управления проектами в следующих областях: <br>
+      участие в проектах для нужд госпредприятий, разработка и сопровождение 
       встроенного ПО, адаптация исходных кодов ПО под требования заказчика, работа с вычислительными платформами (ВП) 
       на процессорах x86, ARM, процессорах отечественной разработки; разработка shell-скриптов, написание драйверов под ОС Linux;
       Работа с OpenSource ПО; Прошел профессиональную переподготовку в ООО "Нетология" по курсу DevOps-инженер, успешно защитил диплом и применяю полученые знания на практике.
@@ -78,30 +78,29 @@ experiences:
     info:
       - role: Ведущий инженер-программист отдела схемотехники
         time: 2015 - настоящее время
-        company: АО "ТС-СКН", Москва
+        company: АО "Компания 1", Москва
         details: |
           Программирование на языках C/C++, Python \
           Технический стек: DevOps/GitOps-методология, GitFlow, Ansible, Docker, Terraform, Git, Gitlab, CI/CD \          
           Разработка ПО для целей импортозамещения
       - role: Ведущий инженер-программист инженерно-технического центра
         time: 2012 - 2015
-        company: ОАО «НИЦЭВТ», Москва
+        company: ОАО «Компания 2», Москва
         details: |
           Программирование на языках C/C++ \          
           Разработка базовой системы вода-вывода для промышленного ПК
       - role: |
-          Ведущий инженер-программист отдела разработки \          
+          Ведущий инженер-программист отдела разработки <br>          
           высокопроизводительных ЭВМ
         time: 2006 - 2012
-        company: ОАО «НИЦЭВТ», Москва
+        company: ОАО «Компания 2», Москва
         details: |
           Программирование на языках C/C++ \          
           Разработка базовой системы вода-вывода для одноплатного компьютера типа "Тонкий клиент" на базе Intel Atom
-      - role: |
-          Инженер-электронщик отдела разработки \          
-          высокопроизводительных ЭВМ
+      - role: >- 
+          Инженер-электронщик отдела разработки высокопроизводительных ЭВМ
         time: 2004 - 2006
-        company: ОАО «НИЦЭВТ», Москва
+        company: ОАО «Компания 2», Москва
         details: |
           Программирование на языках VHDL, AHDL, C/C++, Visual C++ \          
           Разработка автоматизированного рабочего места для автоматической регулировки скорости движения поездов Московского метрополитена 
@@ -113,48 +112,48 @@ certifications:
           start: 2022
           end: 2023
           organization: Нетология
-          credentialid: DEVSYS-21-7472820
-          credentialurl: www.netology.ru #netology.ru/sharing/1be8d2ae9663738ce4d7437e421daf2a?utm_source=social&utm_campaign=achievements
+          credentialid: DEVSYS-21
+          credentialurl: www.netology.ru
           credentialname: Нетология
           details: 
         - name: Виртуализация, базы данных и Terraform
           start: 2023
           end: 2023
           organization: Нетология
-          credentialid: VIRT-21-7472820
-          credentialurl: www.netology.ru #netology.ru/sharing/fa1f7bb9f12a724613314e80938a82b7?utm_source=social&utm_campaign=achievements
+          credentialid: VIRT-21
+          credentialurl: www.netology.ru
           credentialname: Нетология
           details:
         - name: CI, мониторинг и управление конфигурациями
           start: 2023
           end: 2023
           organization: Нетология
-          credentialid: MNT-21-7472820
-          credentialurl: www.netology.ru #netology.ru/sharing/1bde4ccbf57baa42ac3dc57196b6a2c4?utm_source=social&utm_campaign=achievements
+          credentialid: MNT-21
+          credentialurl: www.netology.ru
           credentialname: Нетология
           details:
         - name: Администрирование и конфигурация Kubernetes
           start: 2023
           end: 2023
           organization: Нетология
-          credentialid: DEVKUB-21-7472820
-          credentialurl: www.netology.ru #netology.ru/sharing/97118f16213655aa0b4f7cf6ad847421?utm_source=social&utm_campaign=achievements
+          credentialid: DEVKUB-21
+          credentialurl: www.netology.ru
           credentialname: Нетология
           details:
         - name: Kubernetes и облачные сервисы
           start: 2023
           end: 2023
           organization: Нетология
-          credentialid: CLOKUB-21-7472820
-          credentialurl: www.netology.ru #netology.ru/sharing/a2a088df4c89b86196303361f3d84e71?utm_source=social&utm_campaign=achievements
+          credentialid: CLOKUB-21
+          credentialurl: www.netology.ru
           credentialname: Нетология
           details:
         - name: Дипломный практикум по курсу DevOps-инженер
           start: 2023
           end: 2023
           organization: Нетология
-          credentialid: DEVOPS-21-7472820
-          credentialurl: www.netology.ru #netology.ru/sharing/f7f996cff9d6be55e7f1f5e83db5fa0f?utm_source=social&utm_campaign=achievements
+          credentialid: DEVOPS-21
+          credentialurl: www.netology.ru 
           credentialname: Нетология
           details: 
 
