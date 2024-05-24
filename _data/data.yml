@@ -188,40 +188,14 @@ skills:
     title: Профессиональные навыки
 
     toolset:
-      - name: Python
+      - name: Python, C/C++, BASH, Golang
         level: 80%
-      - name: C/C++
-        level: 80%
-      - name: BASH
-        level: 75%
-      - name: Golang
-        level: 60%
-      - name: Ansible
-        level: 95%
-      - name: Terraform
-        level: 80%
-      - name: Git
-        level: 80%
-      - name: Gitlab
-        level: 95%
-      - name: GitHub
-        level: 80%
-      - name: Jenkins
-        level: 70%
-      - name: Docker
-        level: 80%
-      - name: CI/CD
-        level: 80%
-      - name: Vagrant
+      
+      - name: Ansible, Terraform, Git, Gitlab/GitHub, Jenkins, Docker, CI/CD, Vagrant
         level: 85%
-      - name: STM32
-        level: 70%
-      - name: Миландр
-        level: 95%
-      - name: Эльбрус
-        level: 70%
-      - name: Atmel
-        level: 90%
+
+      - name: STM32, Миландр, Эльбрус, Atmel
+        level: 80%
 
       - name: Atmel Studio, Keil uVision, Eclipse, Visual Studio Code
         level: 85%
