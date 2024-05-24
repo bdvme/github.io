@@ -83,7 +83,7 @@ experiences:
     info:
       - role: Ведущий инженер-программист отдела схемотехники
         time: 2015 - настоящее время
-        company: АО "****", Москва
+        company: АО "***", Москва
         details: |
           Программирование на языках:
             - C/C++
@@ -188,7 +188,11 @@ skills:
     title: Профессиональные навыки
 
     toolset:
-      - name: Python, C/C++, BASH, Golang
+      - name: |
+          - Python
+          - C/C++
+          - BASH
+          - Golang
         level: 80%
 
       - name: Ansible, Terraform, Git/Gitlab/GitHub, Jenkins, Docker, CI/CD pipeline, Vagrant
