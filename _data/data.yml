@@ -185,18 +185,38 @@ projects:
     intro: >
       Выполнение проектов (4+) по разработке ПО для целей импортозамещения для госпредприятий
 skills:
-    title: Профессиональные навыки
+    - title: Профессиональные навыки
 
-    toolset:
-      - name: |
-          - Python
-          - C/C++
-          - BASH
-          - Golang
+      toolset:
+      - name: Python
         level: 80%
-
+      - name: C/C++
+        level: 80%
+      - name: BASH
+        level: 75%
+      - name: Golang
+        level: 60%
+    - title: Технический стек
+      toolset:
       - name: Ansible, Terraform, Git/Gitlab/GitHub, Jenkins, Docker, CI/CD pipeline, Vagrant
         level: 95%
+      - name: Terraform
+        level: 80%
+      - name: Git
+        level: 80%
+      - name: Gitlab
+        level: 95%
+      - name: GitHub
+        level: 80%
+      - name: Jenkins
+        level: 70%
+      - name: Docker
+        level: 80%
+      - name: CI/CD
+        level: 80%
+      - name: Vagrant
+        level: 85%
+      - name: STM32
 
       - name: STM32, Миландр, Эльбрус, Atmel
         level: 95%
